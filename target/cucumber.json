@@ -1,0 +1,203 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11043003900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsOfLoginFeature.open_the_chrome_browser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "login with valid credential and check the different functionality",
+        "description": "",
+        "id": "check-automationpractice-login;login-with-valid-credential-and-check-the-different-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 861092200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsOfLoginFeature.close_the_window_and_logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6265539600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php",
+                  "offset": 11
+                }
+              ],
+              "location": "StepsOfLoginFeature.enter_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3727097200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on sign in",
+            "match": {
+              "location": "StepsOfLoginFeature.click_on_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 410826500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter userEmail \"jahirultech86@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jahirultech86@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "StepsOfLoginFeature.enter_userEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99628100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the userPass \"sunday2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunday2019",
+                  "offset": 20
+                }
+              ],
+              "location": "StepsOfLoginFeature.enter_the_userPass(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060521000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Sign in button",
+            "match": {
+              "location": "StepsOfLoginFeature.click_on_Sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2502661800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "In home page click on Dresses",
+            "match": {
+              "location": "StepsOfLoginFeature.in_home_page_click_on_Dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175240500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Sort by dropdown manu",
+            "match": {
+              "location": "StepsOfLoginFeature.click_on_Sort_by_dropdown_manue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146579700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select the second dress",
+            "match": {
+              "location": "StepsOfLoginFeature.select_the_second_dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259502700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "go to next page and add to cart",
+            "match": {
+              "location": "StepsOfLoginFeature.go_to_next_page_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5516975100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate total price",
+            "match": {
+              "location": "StepsOfLoginFeature.validate_total_price()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@MyStoreLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Check automationpractice login",
+    "description": "",
+    "id": "check-automationpractice-login",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@MyStoreLogin"
+      }
+    ]
+  }
+]
